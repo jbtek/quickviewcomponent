@@ -1,0 +1,9 @@
+<div class=" col-sm-4 product">
+    <figure class="prod-img">
+           <img src="{{imgSrc}}" class="img-responsive">
+    </figure>
+    <p>Roll over image to zoom or click to enlarge</p>
+    <div class="prod-views">
+    	<figure class="imgsmall" data-ng-repeat="img in optionsWindow.mainimg.imagepath" ng-mouseenter="onMouseOver(img)"><img src="{{img}}" class="img-responsive"></figure>
+    </div>
+</div>

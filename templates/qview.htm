@@ -1,0 +1,45 @@
+﻿	<div class="info-block">
+    <div class="wishlist-sprite icon-uppointer"></div>
+	<div class="pointer-box" id="prev"><div class="wishlist-sprite prev-pointer"></div></div>
+    <div class="pointer-box right-pos" id="next"><div class="wishlist-sprite next-pointer"></div></div>
+    <!--gallary-->
+    <div class="custom-gallary" dataobj="mainobj.gallary" gallary-prop="{{mainobj.gallary.mainimg.path}}"></div>
+     <!--End-->
+     
+     
+       
+    <div class="col-md-8 prod-content">
+    <!-- Custom Header QuickView -->
+    <div class="custom-header" dataobj=""></div>
+              <!-- Custom Footer QuickView -->
+    		<div class="custom-footer" dataobj=""></div>
+    		<!--End-->
+    <!--End-->
+    
+    <!--Customization of Item QuickView-->
+    <article class="row">
+        <div class="pip-info panel-group col-md-12" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default" data-ng-repeat="cust in mainobj.measurment.customization" style="display:{{cust.display}}">
+           <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne{{$index}}" aria-expanded="true" aria-controls="collapseOne{{$index}}">
+            <div class="panel-heading" role="tab" id="headingOne">
+            <h5 class="panel-title"><div class="pip-sprite size-icon size-icon{{$index}}"></div> {{cust.title}} <div class="pip-sprite arrow-indicator"></div></h5>
+            </div>
+            </a>
+            <div id="collapseOne{{$index}}" class="panel-collapse collapse {{cust.accoropen}}" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+              <!--quickviewoptions-->
+              <div class="dir0" dataobj="mainobj.measurment.customization[$index].optionswindow" display="{{cust.dir0dispprop}}"></div>
+              <div class="dir1" dataobj="mainobj.measurment.customization[$index].optionswindow" display="{{cust.dir1dispprop}}"></div>
+              <div class="dir2" dataobj="mainobj.measurment.customization[$index].optionswindow" display="{{cust.dir2dispprop}}"></div>
+              <div class="dir3" dataobj="mainobj.measurment.customization[$index].optionswindow" display="{{cust.dir3dispprop}}"></div>
+               <!--quickviewoptions-->
+              </div>
+            </div>
+          </div>
+          </div>
+          </article> 
+          
+          <!-- End -->
+  		</div><!--col-md-8-->
+        <div class="clearfix"></div>
+        </div><!--info block-->

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<quickview>
+		<measurment>
+			<customization>
+			<title>Select Your Size</title>
+			<display>block</display>
+			<dir0dispprop>false</dir0dispprop>
+			<dir1dispprop>false</dir1dispprop>
+			<dir2dispprop>false</dir2dispprop>
+			<dir3dispprop>true</dir3dispprop>
+			<accoropen>in</accoropen>
+			<optionswindow>
+				<headingtitle>Sizes may vary by style. Please check the Size Chart before ordering.</headingtitle>
+				<sizebox>
+				<size>34</size>
+				<size>36</size>
+				<size>38</size>
+				<size>42</size>
+				<size>46</size>
+				</sizebox>
+				<footerheading>Only select sizes are Ready to Ship</footerheading>
+			</optionswindow>
+			</customization>
+			<customization>
+				<title>Customize Your Outfit</title>
+				<display>block</display>
+				<dir0dispprop>true</dir0dispprop>
+				<dir1dispprop>false</dir1dispprop>
+				<dir2dispprop>false</dir2dispprop>
+				<dir3dispprop>false</dir3dispprop>
+				<accoropen> </accoropen>
+				<optionswindow>
+					<title>Blouse Options</title>
+					<radiooptions>
+						<title>Custom Tailoring</title>
+						<cost>15$</cost>
+					</radiooptions>
+					<radiooptions>
+						<title>Standard Blouse</title>
+						<cost>10$</cost>
+						<select>
+							<size>Select Blouse size</size>
+							<size>34</size>
+							<size>36</size>
+							<size>38</size>
+							<size>42</size>
+							<size>46</size>
+						</select>
+						<select>
+							<size>Select Blouse length</size>
+							<size>34</size>
+							<size>36</size>
+							<size>38</size>
+							<size>42</size>
+							<size>46</size>
+						</select>
+						<select>
+							<size>Select sleeves length</size>
+							<size>34</size>
+							<size>36</size>
+							<size>38</size>
+							<size>42</size>
+							<size>46</size>
+						</select>
+					</radiooptions>
+					<radiooptions>
+						<title>Unstitched Blouse Fabric</title>
+					</radiooptions>
+				</optionswindow>
+				<optionswindow>
+					<title>Petticoat Options</title>
+					<radiooptions>
+						<title>Pre-Stitched Saree</title>
+						<cost>15$</cost>
+						<select>
+							<size>Select waist</size>
+							<size>34</size>
+							<size>36</size>
+							<size>38</size>
+							<size>42</size>
+							<size>46</size>
+						</select>
+						<select>
+							<size>Select length</size>
+							<size>34</size>
+							<size>36</size>
+							<size>38</size>
+							<size>42</size>
+							<size>46</size>
+						</select>
+						<select>
+							<size>Select height</size>
+							<size>34</size>
+							<size>36</size>
+							<size>38</size>
+							<size>42</size>
+							<size>46</size>
+						</select>
+					</radiooptions>
+					<radiooptions>
+						<title>Standard Petticoat</title>
+						<cost>10$</cost>
+						<select>
+							<size>Select around waist</size>
+							<size>34</size>
+							<size>36</size>
+							<size>38</size>
+							<size>42</size>
+							<size>46</size>
+						</select>
+						<select>
+							<size>Select petticoat length</size>
+							<size>34</size>
+							<size>36</size>
+							<size>38</size>
+							<size>42</size>
+							<size>46</size>
+						</select>
+					</radiooptions>
+					<radiooptions>
+						<title>Without Petticoat</title>
+					</radiooptions>
+				</optionswindow>
+			</customization>
+			<customization>
+				<title>Save on Shipping</title>
+				<display>block</display>
+				<dir0dispprop>false</dir0dispprop>
+				<dir1dispprop>true</dir1dispprop>
+				<dir2dispprop>false</dir2dispprop>
+				<dir3dispprop>false</dir3dispprop>
+				<accoropen> </accoropen>
+				<optionswindow>
+					<contentdata>
+						<labelText>This Item Ships for $13.99</labelText>
+					</contentdata>
+                   <contentdata>
+						<labelText>Add-on-Items ship @ 50% SHIPPING.</labelText>
+					</contentdata>
+                   <contentdata>
+						<labelText>Discount on shipping charges will always be for maximum savings to you. For more information, see Examples and Shipping Policy here</labelText>
+					</contentdata>
+				</optionswindow>
+			</customization>
+			<customization>
+				<title>Free Fashion Accessary</title>
+				<display>block</display>
+				<dir0dispprop>false</dir0dispprop>
+				<dir1dispprop>false</dir1dispprop>
+				<dir2dispprop>true</dir2dispprop>
+				<dir3dispprop>false</dir3dispprop>
+				<accoropen> </accoropen>
+				<optionswindow>
+					<buttontext>Select Fashion Accessary</buttontext>
+				</optionswindow>
+			</customization>
+		</measurment>
+		<gallary>
+		<mainimg>
+			<path>images/product-img.jpg</path>
+			<size>34</size>
+			<size>36</size>
+			<size>38</size>
+			<size>42</size>
+			<size>46</size>
+		</mainimg>
+		</gallary>
+	</quickview>

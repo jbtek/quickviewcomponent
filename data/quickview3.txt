@@ -1,0 +1,59 @@
+{
+  "quickview": {
+    "measurment": {
+      "customization": [
+        {
+          "title": "Select Your Size",
+          "display": "block",
+          "dir0dispprop": "false",
+          "dir1dispprop": "false",
+          "dir2dispprop": "false",
+          "dir3dispprop": "true",
+          "accoropen": "in",
+          "optionswindow": {
+            "headingtitle": "Sizes may vary by style. Please check the Size Chart before ordering.",
+            "sizebox": {
+              "size": [
+                "34",
+                "36",
+                "38",
+                "42",
+                "46"
+              ]
+            },
+            "footerheading": "Only select sizes are Ready to Ship"
+          }
+        },
+        {
+          "title": "Save on Shipping",
+          "display": "block",
+          "dir0dispprop": "false",
+          "dir1dispprop": "true",
+          "dir2dispprop": "false",
+          "dir3dispprop": "false",
+          "accoropen": " ",
+          "optionswindow": {
+            "contentdata": [
+              { "labelText": "This Item Ships for $13.99" },
+              { "labelText": "Add-on-Items ship @ 50% SHIPPING." },
+              { "labelText": "Discount on shipping charges will always be for maximum savings to you. For more information, see Examples and Shipping Policy here" }
+            ]
+          }
+        }
+      ]
+    },
+    "gallary": {
+      "mainimg": {
+        "path": "images/product-img.jpg",
+        "imagepath": [
+          "images/sim-1.jpg",
+          "images/sim-2.jpg",
+          "images/sim-3.jpg",
+          "images/sim-4.jpg",
+          "images/sim-5.jpg",
+		  "images/sim-6.jpg"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,71 @@
+<!doctype html>
+<html xmlns:ng="http://angularjs.org" ng-app="QuickView" id="ng-app">
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link  href="css/bootstrap.min.css" rel="stylesheet">
+<link  href="css/custom.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0/angular.min.js"></script>
+
+<!--IE Support
+https://www.ng-book.com/p/AngularJS-and-Internet-Explorer/
+http://stackoverflow.com/questions/15914675/running-angularjs-app-on-internet-explorer-7
+-->
+<!--[if lte IE 8]>
+<script type="text/javascript">
+  // define our custom directives here
+  	window.myCustomTags = ['customComponent','dir0', 'dir1', 'dir2', 'dir3','customHeader','customFooter','customGallary'];
+</script>
+<script src="js/json2.js"></script>
+<script src="js/ie-shiv.js"></script>
+<![endif]-->
+<script src="js/quickviewModule.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+<section ng-controller="QuickViewController" class="container">
+<custom-component jsondata="quickView" class="qview"></custom-component>
+<div class="row">
+    <div id="divResult">
+    	<div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer rightnone"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer rightnone"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer rightnone"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer rightnone"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer rightnone"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer"></div>
+        <div class="plpContainer rightnone"></div>
+    </div>
+</article>
+</section>
+
+<!-- Include all compiled plugins (below), or include individual files as needed
+////////
+ -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
